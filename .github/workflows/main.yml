@@ -4,8 +4,8 @@ name: Upload Docker Image
 
 on:
   release:
-    types: [published]
-
+    types: [created]
+    
 jobs:
   deploy:
 
