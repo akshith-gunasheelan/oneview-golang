@@ -3,7 +3,7 @@ name: Raise a Pull Request
 on:
   push:
     branches:
-      - "OV*.*_"  # Support wildcard matching
+      - "OV*.*"  # Support wildcard matching
 
 jobs:
   pull-request:
