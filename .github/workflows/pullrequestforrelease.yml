@@ -3,7 +3,7 @@ name: Raise a Pull Request
 on:
   push:
     branches:
-      - "OV[0-9]*"  # Support wildcard matching
+      - "OV[0-9].[0-9]_Validation"  # Support wildcard matching
 
 jobs:
   pull-request:
