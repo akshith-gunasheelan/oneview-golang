@@ -3,7 +3,7 @@ name: Raise a Pull Request
 on:
   push:
     branches:
-      - OV*  # Support wildcard matching
+      - "PR"  # Support wildcard matching
 
 jobs:
   pull-request:
